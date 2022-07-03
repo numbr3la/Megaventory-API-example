@@ -23,6 +23,6 @@ So far, I have never worked with this kind of project.
 
 
 # Technologies
-Python 3.7\n
-Flask 2.1.2\n
+Python 3.7, 
+Flask 2.1.2, 
 SQLAlchemy 1.4.39
