@@ -10,7 +10,6 @@ from src.megaventory_api import (ProductApi, SupplierClientApi,
 
 
 class Test:
-
     def __init__(self):
         self.configFile = None
         self.product = None
@@ -32,7 +31,6 @@ class Test:
 
 
     def createAndUpdateEntitiesByApi(self):
-
         try:
             # product
             self.product = Product.Product('1112256', 'Nike shoes', 99.99, 44.99)
@@ -81,7 +79,7 @@ class Test:
             print('Error: ', repr(e), flush=True)
 
 
+            
     def run(self):
-
         self.configFile = ConfigFile('config.ini')
         self.createAndUpdateEntitiesByApi()
